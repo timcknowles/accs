@@ -9,7 +9,7 @@ gem 'rails', '3.2.11'
 gem 'haml-rails'
 gem 'bootstrap-sass'
 gem 'simple_form'
-
+gem 'devise'
 
 
 # Gems used only for assets and not required
