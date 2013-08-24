@@ -1,4 +1,7 @@
 Accs::Application.routes.draw do
+  resources :assessments
+
+
   devise_for :users
 
   resources :users
