@@ -1,4 +1,7 @@
 Accs::Application.routes.draw do
+  resources :dops
+
+
   resources :assessments
 
 
