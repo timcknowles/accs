@@ -1,4 +1,16 @@
 Accs::Application.routes.draw do
+  resources :items
+
+
+  resources :sections
+
+
+  resources :curriculums
+
+
+  resources :curriculum_assessments
+
+
   resources :dops
 
 
