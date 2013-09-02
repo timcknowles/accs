@@ -1,0 +1,10 @@
+= simple_form_for(@curriculum) do |f|
+  = f.error_notification
+
+  .form-inputs
+    = f.input :year
+    = f.input :name
+    = f.association :sections
+
+  .form-actions
+    = f.button :submit

@@ -1,0 +1,70 @@
+%h1 Listing dops
+
+%table
+  %tr
+    %th Clinical setting
+    %th Problem category
+    %th Clinical encouter
+    %th Complexity
+    %th Assessor postion
+    %th Number previous assessor
+    %th Number previous trainee
+    %th Understanding
+    %th Consent
+    %th Preparation
+    %th Analalgesia
+    %th Technical ability
+    %th Aseptic
+    %th Seeks help
+    %th Post procedure
+    %th Communication
+    %th Consideration
+    %th Overall
+    %th Suggestions
+    %th Training
+    %th Time observation
+    %th Time feedback
+    %th Assessor
+    %th Assesser gmc
+    %th Assessor contact
+    %th Assessor email
+    %th
+    %th
+    %th
+
+  - @dops.each do |dop|
+    %tr
+      %td= dop.clinical_setting
+      %td= dop.problem_category
+      %td= dop.clinical_encouter
+      %td= dop.complexity
+      %td= dop.assessor_postion
+      %td= dop.number_previous_assessor
+      %td= dop.number_previous_trainee
+      %td= dop.understanding
+      %td= dop.consent
+      %td= dop.preparation
+      %td= dop.analalgesia
+      %td= dop.technical_ability
+      %td= dop.aseptic
+      %td= dop.seeks_help
+      %td= dop.post_procedure
+      %td= dop.communication
+      %td= dop.consideration
+      %td= dop.overall
+      %td= dop.suggestions
+      %td= dop.training
+      %td= dop.time_observation
+      %td= dop.time_feedback
+      %td= dop.assessor
+      %td= dop.assesser_GMC
+      %td= dop.assessor_contact
+      %td= dop.assessor_email
+      %td= link_to 'Show', dop
+      %td= link_to 'Edit', edit_dop_path(dop)
+      %td= link_to 'Destroy', dop, :method => :delete, :data => { :confirm => 'Are you sure?' }
+      %td= link_to link_btn_text(item), curriculum_assessments_path(item_id: item.id), method: :post, :class => 'btn btn-mini btn-primary'
+
+%br
+
+= link_to 'New Dop', new_dop_path

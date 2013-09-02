@@ -1,0 +1,48 @@
+= simple_form_for(@dop, :html => { :class => 'form-horizontal' }) do |f|
+  /= f.error_notification
+    
+  .form-inputs
+   
+    = f.association :items
+    = f.input :clinical_setting,  collection: [ "A&E", "Clinic", "Ward", "Acute Admission"], as: :radio_buttons, item_wrapper_class: 'inline'
+    = f.input :problem_category
+    = f.input :clinical_encouter
+    = f.input :complexity
+    = f.input :assessor_postion
+    = f.input :number_previous_assessor
+    = f.input :number_previous_trainee
+    
+    %table.table.table-bordered.table-striped.table-hover  
+
+      %tr
+        %th Unable to Comment
+        %th Below Expectations 
+        %th Bordeline
+        %th Meets Expectations
+        %th Above Expectations
+        %th Totally Exceeds Expectations
+
+      
+
+        = f.input :understanding, collection: 0..5, as: :radio_buttons, item_wrapper_class: 'inline'
+        = f.input :consent, collection: 0..5, as: :radio_buttons, item_wrapper_class: 'inline'
+        = f.input :preparation, collection: 0..5, as: :radio_buttons, item_wrapper_class: 'inline'
+        = f.input :analalgesia, collection: 0..5, as: :radio_buttons, item_wrapper_class: 'inline'
+        = f.input :technical_ability, collection: 0..5, as: :radio_buttons, item_wrapper_class: 'inline'
+        = f.input :aseptic, collection: 0..5, as: :radio_buttons, item_wrapper_class: 'inline'
+        = f.input :seeks_help, collection: 0..5, as: :radio_buttons, item_wrapper_class: 'inline'
+        = f.input :post_procedure, collection: 0..5, as: :radio_buttons, item_wrapper_class: 'inline'
+        = f.input :communication, collection: 0..5, as: :radio_buttons, item_wrapper_class: 'inline'
+        = f.input :consideration, collection: 0..5, as: :radio_buttons, item_wrapper_class: 'inline'
+        = f.input :overall, collection: 0..5, as: :radio_buttons, item_wrapper_class: 'inline'
+        = f.input :suggestions
+        = f.input :training
+        = f.input :time_observation
+        = f.input :time_feedback
+        = f.input :assessor
+        = f.input :assesser_GMC
+        = f.input :assessor_contact
+        = f.input :assessor_email
+
+  .form-actions
+    = f.button :submit

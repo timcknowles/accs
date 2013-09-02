@@ -1,0 +1,17 @@
+= simple_form_for(@assessment) do |f|
+  = f.error_notification
+
+  .form-inputs
+    = f.input :assessor_email
+    = f.input :assessment_type
+    = f.input :date
+    = f.input :assessor_name
+    = f.input :assessor_grade
+    = f.input :assessor_gmc
+    = f.input :assessment_title
+    = f.input :assessment_description
+    = f.input :assessor_firstname
+    = f.input :assessor_lastname
+
+  .form-actions
+    = f.button :submit

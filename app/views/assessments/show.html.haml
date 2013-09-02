@@ -1,0 +1,36 @@
+%p#notice= notice
+
+%p
+  %b Assessor email:
+  = @assessment.assessor_email
+%p
+  %b Assessment type:
+  = @assessment.assessment_type
+%p
+  %b Date:
+  = @assessment.date
+%p
+  %b Assessor name:
+  = @assessment.assessor_name
+%p
+  %b Assessor grade:
+  = @assessment.assessor_grade
+%p
+  %b Assessor gmc:
+  = @assessment.assessor_gmc
+%p
+  %b Assessment title:
+  = @assessment.assessment_title
+%p
+  %b Assessment description:
+  = @assessment.assessment_description
+%p
+  %b Assessor firstname:
+  = @assessment.assessor_firstname
+%p
+  %b Assessor lastname:
+  = @assessment.assessor_lastname
+
+= link_to 'Edit', edit_assessment_path(@assessment)
+\|
+= link_to 'Back', assessments_path

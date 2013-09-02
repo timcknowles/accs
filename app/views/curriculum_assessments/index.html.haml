@@ -1,0 +1,17 @@
+%h1 Listing curriculum_assessments
+
+%table
+  %tr
+    %th
+    %th
+    %th
+
+  - @curriculum_assessments.each do |curriculum_assessment|
+    %tr
+      %td= link_to 'Show', curriculum_assessment
+      %td= link_to 'Edit', edit_curriculum_assessment_path(curriculum_assessment)
+      %td= link_to 'Destroy', curriculum_assessment, :method => :delete, :data => { :confirm => 'Are you sure?' }
+
+%br
+
+= link_to 'New Curriculum assessment', new_curriculum_assessment_path

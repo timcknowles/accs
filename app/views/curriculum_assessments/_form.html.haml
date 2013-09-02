@@ -1,0 +1,16 @@
+= simple_form_for(@curriculum_assessment) do |f|
+  = f.error_notification
+
+  .form-inputs
+    =f.association :dop, :label_method => :clinical_setting
+    =f.association :item
+
+
+
+   
+
+
+
+
+  .form-actions
+    = f.button :submit

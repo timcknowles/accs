@@ -1,0 +1,57 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  clinical_setting: MyString
+  problem_category: MyString
+  clinical_encouter: MyString
+  complexity: MyString
+  assessor_postion: MyString
+  number_previous_assessor: MyString
+  number_previous_trainee: MyString
+  understanding: 1
+  consent: 1
+  preparation: 1
+  analalgesia: 1
+  technical_ability: 1
+  aseptic: 1
+  seeks_help: 1
+  post_procedure: 1
+  communication: 1
+  consideration: 1
+  overall: 1
+  suggestions: MyText
+  training: false
+  time_observation: 1
+  time_feedback: 1
+  assessor: MyString
+  assesser_GMC: MyString
+  assessor_contact: MyString
+  assessor_email: MyString
+
+two:
+  clinical_setting: MyString
+  problem_category: MyString
+  clinical_encouter: MyString
+  complexity: MyString
+  assessor_postion: MyString
+  number_previous_assessor: MyString
+  number_previous_trainee: MyString
+  understanding: 1
+  consent: 1
+  preparation: 1
+  analalgesia: 1
+  technical_ability: 1
+  aseptic: 1
+  seeks_help: 1
+  post_procedure: 1
+  communication: 1
+  consideration: 1
+  overall: 1
+  suggestions: MyText
+  training: false
+  time_observation: 1
+  time_feedback: 1
+  assessor: MyString
+  assesser_GMC: MyString
+  assessor_contact: MyString
+  assessor_email: MyString

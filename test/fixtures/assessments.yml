@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  assessor_email: MyString
+  assessment_type: MyString
+  date: 2013-08-24 11:20:24
+  assessor_name: MyString
+  assessor_grade: MyString
+  assessor_gmc: MyString
+  assessment_title: MyString
+  assessment_description: MyString
+  assessor_firstname: MyString
+  assessor_lastname: MyString
+
+two:
+  assessor_email: MyString
+  assessment_type: MyString
+  date: 2013-08-24 11:20:24
+  assessor_name: MyString
+  assessor_grade: MyString
+  assessor_gmc: MyString
+  assessment_title: MyString
+  assessment_description: MyString
+  assessor_firstname: MyString
+  assessor_lastname: MyString
