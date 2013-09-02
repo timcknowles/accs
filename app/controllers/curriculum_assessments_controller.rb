@@ -41,10 +41,10 @@ class CurriculumAssessmentsController < ApplicationController
   # POST /curriculum_assessments.json
   def create
     
-    @dop = Dop.find(params[:id])
-    @item = Item.find(params[:id])
-    @dop = CurriculumAssessment.create(item: item)
-  
+    @dop = Dop.find(params[:curriculum_assessment][:dop_id])
+    @item = Item.find(params[:curriculum_assessment][:item_id])
+    @curriculum_assessment = CurriculumAssessment.create(item: @item, dop: @dop)
+
 
     respond_to do |format|
       if @curriculum_assessment.save
