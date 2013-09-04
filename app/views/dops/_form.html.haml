@@ -1,9 +1,21 @@
+= form_for(@dop) do |f| 
+  
+  .field
+
+    = f.label :item_ids, "items"
+    = f.collection_select :item_ids, Item.order(:code), :id, :code, {}, {multiple: true} 
+  
+  .actions
+    = f.submit 
+
+
 = simple_form_for(@dop, :html => { :class => 'form-horizontal' }) do |f|
   /= f.error_notification
     
   .form-inputs
    
-    = f.association :items
+    /= f.association :items, as: :check_boxes
+
     = f.input :clinical_setting,  collection: [ "A&E", "Clinic", "Ward", "Acute Admission"], as: :radio_buttons, item_wrapper_class: 'inline'
     = f.input :problem_category
     = f.input :clinical_encouter

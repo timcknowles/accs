@@ -34,13 +34,13 @@ class DopsController < ApplicationController
 
   # GET /dops/1/edit
   def edit
-    @dop = current_user.dop.find(params[:id])
+    @dop = Dop.find(params[:id])
   end
 
   # POST /dops
   # POST /dops.json
   def create
-    @dop = current_user.dops.build(params[:dop])
+    @dop = current_user.dops.new(params[:dop])
 
     respond_to do |format|
       if @dop.save

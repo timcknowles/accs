@@ -4,6 +4,7 @@
   .form-inputs
     = f.input :code
     = f.input :name
+    = f.association :dops, :label_method => :clinical_setting
 
   .form-actions
     = f.button :submit

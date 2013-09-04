@@ -40,6 +40,7 @@ class CurriculumAssessmentsController < ApplicationController
   # POST /curriculum_assessments
   # POST /curriculum_assessments.json
   def create
+    #@curriculum_assessment = CurriculumAssessment.create(params[:curriculum_assessments])
     
     @dop = Dop.find(params[:curriculum_assessment][:dop_id])
     @item = Item.find(params[:curriculum_assessment][:item_id])

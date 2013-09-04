@@ -1,5 +1,12 @@
 %p#notice= notice
 
+%h1 DOP
+
+%strong Curriculum Links:
+%ul
+  - @dop.items.each do |item|
+    %li= item.code
+
 %p
   %b Clinical setting:
   = @dop.clinical_setting
