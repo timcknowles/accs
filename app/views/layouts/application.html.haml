@@ -12,11 +12,11 @@
       %nav.navbar-inner
         .container
           = render 'layouts/navigation'
-        %main{:role => "main"}
-          .container
-            .content
-              .row
-                .span12
-                  = render 'layouts/messages'
-                  = yield
-              %footer
+    %main{:role => "main"}
+      .container
+        .content
+          .row
+            .span12
+              = render 'layouts/messages'
+              = yield
+          %footer
