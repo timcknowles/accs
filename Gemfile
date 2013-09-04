@@ -10,6 +10,7 @@ gem 'haml-rails'
 gem 'bootstrap-sass'
 gem 'simple_form'
 gem 'devise'
+gem 'chosen-rails'
 
 
 # Gems used only for assets and not required
