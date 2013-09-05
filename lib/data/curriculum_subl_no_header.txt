@@ -1,0 +1,135 @@
+CC1 History taking
+CC2 Clinical examination
+CC3 Therapeutics and safe prescribing
+CC4 Time management and decision making
+CC5 Decision making and clinical reasoning
+CC6 The patient as a central focus of care
+CC7 Prioritisation of patient safety in clinical practice
+CC8 Team working and patient safety
+CC9 Principles of quality and safety improvement
+CC10 Infection control
+CC11 Managing long term conditions and promoting patient self-care
+CC12 Relationships with patients and communication within a consultation
+CC13 Breaking bad news
+CC14 Complaints and medical error
+CC15 Communication with colleagues and cooperation
+CC16 Health promotion and public health
+CC17 Principles of medical ethics and confidentiality
+CC18 Valid consent
+CC19 Legal framework for practice
+CC20 Ethical research
+CC21 Evidence and guidelines
+CC22 Audit
+CC23 Teaching and training
+CC24 Personal behaviour
+CC25 Management and NHS structure
+CMP1 Anaphylaxis
+CMP2 Cardio-respiratory arresCMP3 Major trauma
+CMP4 Septic patient
+CMP5 Shocked patient
+CMP6 Unconscious patient
+CAP1 (S) Abdominal pain including loin pain
+CAP2 Abdominal swelling, mass and constipation
+CAP3 Acute back pain
+CAP4 Aggressive/disturbed behaviour
+CAP5 Blackout/collapse
+CAP6 Breathlessness
+CAP7 Chest pain
+CAP8 Confusion, acute/delirium
+CAP9 Cough
+CAP10 Cyanosis
+CAP11 Diarrhoea
+CAP12 Dizziness and vertigo
+CAP13 Falls
+CAP14 Fever
+CAP15 Fits/Seizure
+CAP16 Haematemesis & Melaena
+CAP17 Headache
+CAP18 Head injury
+CAP19 Jaundice
+CAP20 Limb pain & swelling - atraumatic
+CAP21 Neck pain
+CAP22 Oliguric patient (to include fluid challenge)
+CAP23 Pain management
+CAP24 Painful ears/ENT
+CAP25 Palpitations
+CAP26 Pelvic pain
+CAP27 Poisoning
+CAP28 Rash
+CAP29 Red eye - ophthalmology/painful eyes
+CAP30 Mental health
+CAP31 Sore throat
+CAP32 Syncope and pre-syncope
+CAP33 Traumatic limb and joint injurieCAP34 Vaginal bleeding
+CAP35 Ventilatory support
+CAP36 Vomiting and nausea
+CAP37 Weakness and paralysis
+CAP38 Wound assessment and management
+PP1 Arterial cannulation
+PP2 Peripheral venous cannulation
+PP3 Central venous cannulation
+PP4 Arterial blood gas sampling
+PP5 Lumbar puncture
+PP6 Pleural tap and aspiration
+PP7 Intercostal drain Seldinger
+PP8 Intercostal drain - Open
+PP9 Ascitic tap
+PP10 Abdominal paracentesis
+PP11 Airway protection
+PP12 Basic and advanced life supporPP13 DC Cardioversion
+PP14 Knee aspiration
+PP15 Temporary pacing (external/wire)
+PP16 Reduction of dislocation/fracturPP17 Large joint examination
+PP18 Wound management
+PP19 Trauma primary survey
+PP20 Initial assessment of the acutely unwell
+PP21 Secondary assessment of the acutely unwell
+PP22 Connection to a mechanical ventilator
+PP23 Safe use of drugs to facilitate mechanical ventilation
+PP24 Managing the patient fighting the ventilator
+PP25 Monitoring respiratory function
+PP26 Preoperative assessment
+PP27 Management of spontaneously breathing patient
+PP28 Administer anaesthesia for laparotomy
+PP29 Demonstrate RSI
+PP30 Recover patient from anaesthesia
+PP31 Demonstrate function of anaesthetic machine
+PP32 Transfer of patient to operating table
+PP33 Demonstrate CPR resuscitation on a manikin
+PP34 Technique of scrubbing up and donning gown and gloves
+PP35 Basic competences for pain management
+PP36 Patient identification
+PP37 Post op N&V
+PP38 Airway assessment
+PP39 Choice of muscle relaxants and induction agents
+PP40 Post op analgesia
+PP41 Post op oxygen therapy
+PP42 Emergency surgery
+PP43 Safe use of vasoactive drugs and electrolytes
+PP44 Deliver a fluid challenge safely to an acutely unwell patient
+PP45 Describe actions required for accidental displacement of tracheal tube or tracheostomy
+A1 Preoperative assessment - appropriate history
+A1 Preoperative assessment - clinical examination
+A1 Preoperative assessment - specific anaesthetic evaluation
+A2 Premedication
+A3 Induction of general anaesthesia
+A4 Intraoperative care
+A5 Postoperative and recovery room care
+B Airway management
+C Critical incidents
+D Paediatric competences for ACCS
+O1 Introduction to anaesthesia for emergency surgery
+O2 Transfer medicine
+O3 Procedural sedation
+O4 Aspects of regional anaesthesia
+ICM1 Demonstrate aseptic peripheral venous cannulation
+ICM2 Demonstrate aseptic arterial cannulation (+ local anaesthetic)
+ICM3 Obtain an arterial blood gas sample safely, interpret results correctly
+ICM4 Demonstrate aseptic placement of central venous catheter
+ICM5 Connect mechanical ventilator and select initial settings
+ICM6 Describe safe use of drugs to facilitate mechanical ventilation
+ICM7 Describe principle of monitoring respiratory function
+ICM8 Describe the assessment of the patient with poor compliance during ventilatory support (fighting the ventilator)
+ICM9 Prescribe safe use of vasoactive drugs and electrolytes
+ICM10 Deliver a fluid challenge safely to an acutely unwell patient
+ICM11 Describe actions required for accidental displacement of tracheal tube or tracheostomy
