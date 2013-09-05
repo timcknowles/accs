@@ -1,21 +1,24 @@
-%h1 Listing items
+/#accordion.panel-group
 
-%table
-  %tr
-    %th Code
-    %th Name
-    %th
-    %th
-    %th
+- @items.each do |item|
+  .panel-group{:id => "accordian"}
+    .panel.panel-default
+      .panel-heading
+        %h4.panel-title
+          %a.accordion-toggle{"data-toggle" => "collapse", "data-parent" => "#accordion", :href => "#collapseOne"}
+            = item.code
+      #collapseOne.panel-collapse.collapse.in
+        .panel-body
+          = item.name
+    .panel.panel-default
+      .panel-heading
+        %h4.panel-title
+          %a.accordion-toggle{"data-toggle" => "collapse", "data-parent" => "#accordion", :href => "#collapseOne"}
+      
 
-  - @items.each do |item|
-    %tr
-      %td= item.code
-      %td= item.name
-      %td= link_to 'Show', item
-      %td= link_to 'Edit', edit_item_path(item)
-      %td= link_to 'Destroy', item, :method => :delete, :data => { :confirm => 'Are you sure?' }
-      %td= link_to link_btn_text(item), curriculum_assessments_path(item_id: item.id), method: :post, :class => 'btn btn-mini btn-primary'
+
 %br
 
 = link_to 'New Item', new_item_path
+
+
