@@ -7,6 +7,8 @@
     %th
 
   - @curriculum_assessments.each do |curriculum_assessment|
+    =curriculum_assessment.dop.consent
+    
     %tr
       %td= link_to 'Show', curriculum_assessment
       %td= link_to 'Edit', edit_curriculum_assessment_path(curriculum_assessment)

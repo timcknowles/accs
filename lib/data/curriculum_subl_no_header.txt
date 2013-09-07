@@ -24,7 +24,8 @@ CC23 Teaching and training
 CC24 Personal behaviour
 CC25 Management and NHS structure
 CMP1 Anaphylaxis
-CMP2 Cardio-respiratory arresCMP3 Major trauma
+CMP2 Cardio-respiratory arrest
+CMP3 Major trauma
 CMP4 Septic patient
 CMP5 Shocked patient
 CMP6 Unconscious patient

@@ -40,7 +40,7 @@ class DopsController < ApplicationController
   # POST /dops
   # POST /dops.json
   def create
-    @dop = current_user.dops.new(params[:dop])
+    @dop = current_user.dops.new(params[:id])
 
     respond_to do |format|
       if @dop.save

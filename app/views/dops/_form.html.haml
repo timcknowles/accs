@@ -3,7 +3,7 @@
   .field
 
     = f.label :item_ids, "items"
-    = f.collection_select :item_ids, Item.order(:code), :id, :code, {}, {multiple: true} 
+    = f.collection_select :item_ids, Item.order(:name), :id, :name, {}, {multiple: true} 
   
   .actions
     = f.submit 

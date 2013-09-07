@@ -2,7 +2,7 @@ class CurriculumAssessmentsController < ApplicationController
   # GET /curriculum_assessments
   # GET /curriculum_assessments.json
   def index
-    @curriculum_assessments = CurriculumAssessment.all
+    @curriculum_assessments = current_user.curriculumAssessments.all
 
     respond_to do |format|
       format.html # index.html.erb
@@ -13,7 +13,7 @@ class CurriculumAssessmentsController < ApplicationController
   # GET /curriculum_assessments/1
   # GET /curriculum_assessments/1.json
   def show
-    @curriculum_assessment = CurriculumAssessment.find(params[:id])
+    @curriculum_assessment = current_user.curriculumAssessments.find(params[:id])
 
     respond_to do |format|
       format.html # show.html.erb
