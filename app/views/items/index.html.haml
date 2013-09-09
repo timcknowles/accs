@@ -1,13 +1,14 @@
 - @items.each do |item|
-  #accordion.panel-group
-    .panel.panel-default
-      .panel-heading
-        %h4.panel-title
-          %a.accordion-toggle{"data-parent" => "#accordian", "data-toggle" => "collapse", :href => "#collapse#{item.code}"}
-            #{item.code}:  #{item.name}
-      .panel-collapse.collapse.in{:id => "collapse#{item.code}"}
-        .panel-body
-          #{item.curriculum_assessments}
+  .bs-example
+    #accordion.panel-group
+      .panel.panel-default
+        .panel-heading
+          %h4.panel-title
+            %a.accordion-toggle{"data-parent" => "#accordian", "data-toggle" => "collapse", :href => "#collapse#{item.code}"}
+              #{item.code}:  #{item.name}
+        .panel-collapse.collapse{:id => "collapse#{item.code}"}
+          .panel-body
+            /#{item.curriculum_assessments}
         
     
      
