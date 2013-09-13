@@ -2,16 +2,21 @@
 %html
   %head
     %title My Page
-    %meta{:content => "width=device-width, initial-scale=1", :name => "viewport"}/
-    %link{:href => "http://code.jquery.com/mobile/1.2.1/jquery.mobile-1.2.1.min.css", :rel => "stylesheet"}/
-    %script{:src => "http://code.jquery.com/jquery-1.8.3.min.js"}
-    %script{:src => "http://code.jquery.com/mobile/1.2.1/jquery.mobile-1.2.1.min.js"}
+    %meta{:content => "text/html; charset=utf-8", "http-equiv" => "Content-Type"}
+    %meta{:content => "width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no", :name => "viewport"}
+    %meta{:content => "yes", :name => "apple-mobile-web-app-capable"}
+    %meta{:content => "black", :name => "apple-mobile-web-app-status-bar-style"}
+    
+    = stylesheet_link_tag "application", :media => "all"
+    = javascript_include_tag "application"
+    %script{:src => "//cdnjs.cloudflare.com/ajax/libs/iScroll/5.0.4/iscroll-min.js"}
+    //cdnjs.cloudflare.com/ajax/libs/iScroll/5.0.4/iscroll-min.js
   %body
-    %div{"data-role" => "page"}
-      %div{"data-role" => "header"}
-        %h1 My Title
-      / /header
-      %ul{"data-role" => "listview"}
-        = yield
+    #index-page{"data-role" => "page"}
+      %div{"data-position" => "fixed", "data-role" => "header", "data-tap-toggle" => "false"}
+        %h1 Curriculum
+        .example-wrapper{"data-iscroll" => "", "data-role" => "content"}
+          %ul{"data-filter" => "true", "data-inset" => "true", "data-role" => "listview"}
+            = yield
       / /content
     / /page

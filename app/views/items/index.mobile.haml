@@ -1,7 +1,7 @@
-%ul{"data-filter" => "true", "data-inset" => "true", "data-role" => "listview"}
+%ul
 
 - @items.each do |item|
-  %li
-    %a{:href => "#"} #{item.code}:  #{item.name}
+  %li #{item.code}:  #{item.name}
+    
     
   
